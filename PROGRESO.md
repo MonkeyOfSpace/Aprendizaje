@@ -39,6 +39,14 @@
 - [ ] Ousterhout caps. 11-15 (fases 4-5)
 - [ ] Fowler caps. 1-4 (fases 6-7)
 
+## Hilo: modelos de decisión (JEV y similares, ver PLAN.md 8.6)
+
+- [ ] Criterios de decisión para el caso Aircall, escritos por el alumno antes de mirar ningún proveedor (antes de la sesión de la semana 2)
+- [ ] Research conjunto del panorama: el tutor trae la tabla, el alumno la cruza con sus criterios (fase 1, semana 2)
+- [ ] Parser de Aircall etiquetado tres veces (fase 1, semana 2)
+- [ ] Herramienta `decidir` con umbral en código en el loop de juguete (fases 4-6)
+- [ ] Mini-eval Haiku / JEV / modelo abierto sobre llamadas reales (fase 7)
+
 ## Rutas posteriores al plan
 
 - [ ] Hugging Face y modelos abiertos (PLAN.md 8.4)

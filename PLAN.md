@@ -340,3 +340,18 @@ Tienes razón y es más importante de lo que parece: la IA escribe el código, p
 Es un libro corto y otro del que solo lees la introducción. Después del plan, si quieres, montamos una ruta de fundamentos de verdad (testing como disciplina, arquitectura, patrones, sistemas distribuidos) ya con el criterio que te habrá dado construir un harness.
 
 Tu perfil de PM vuelve a ayudar aquí: diseñar software es decidir qué no construir, qué exponer y qué ocultar. Ya lo haces con producto.
+
+### 8.6 Modelos de decisión (JEV y similares): hilo corto, no fase nueva
+
+Añadido el 14 de octubre a propuesta del alumno. Modelos como JEV (TypeSafe AI) no generan texto: reciben un estado y devuelven decisiones estructuradas con probabilidad calibrada (`choice`, `score`, `noul`). Su promesa frente a un generativo como Haiku es velocidad y precio, y su tesis de diseño es la del harness: "el modelo se ocupa de la incertidumbre; el código, de la política". Caso de uso real: clasificar y decidir urgencia o derivación de las llamadas de `aircall-inquilinos`.
+
+Presupuesto: 3-4 horas en total, repartidas. El calendario no cambia.
+
+| Dónde | Qué | Entregable |
+|---|---|---|
+| Fase 1, semana 2 | Research conjunto del panorama: JEV y los modelos del mismo estilo que vayan saliendo, frente a Haiku con salida estructurada y frente a un modelo abierto vía nan.builders. Criterios fijados antes de mirar proveedores, como una evaluación de proveedor de producto. | Nota en `notas/` con tabla de criterios y veredicto provisional |
+| Fase 1, semana 2 | Al leer el parser de Aircall, etiquetarlo tres veces: llamada generativa, salida estructurada con tool use, modelo de decisión. Qué cambia en coste, latencia y garantías. | Sección en la nota de la fase 1 |
+| Fases 4 y 6 | En el loop de juguete, herramienta `decidir(estado, pregunta)` que devuelve probabilidad, y en código el umbral que decide si el loop sigue, delega o para (flujo de tres niveles por confianza). | Pieza del harness |
+| Fase 7, evals | Mini-eval con 20-30 llamadas reales de Aircall: Haiku actual contra JEV contra modelo abierto. Medir acierto, coste, latencia y calibración (cuando dice 0,9, ¿acierta el 90 %?). | Tabla de evals |
+
+Avisos que nos damos: es un proveedor único, cerrado y con semanas de vida; la evidencia independiente es escasa y en inglés, y nuestras llamadas están en español. Lo que se aprende es el concepto (decisión calibrada con la política en código); el proveedor es intercambiable y el harness lo tratará así. La documentación de referencia es la de TypeSafe AI, no sitios comunitarios.
