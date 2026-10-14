@@ -1,0 +1,23 @@
+# Dependencias y builds del proyecto personal
+node_modules/
+dist/
+build/
+__pycache__/
+.venv/
+*.pyc
+
+# Secretos: la clave de la API nunca va al repo
+.env
+.env.*
+!.env.example
+
+# Estado local de Claude Code (lo compartido va en CLAUDE.md y .claude/)
+.claude/settings.local.json
+.claude/worktrees/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
