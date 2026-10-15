@@ -2,7 +2,7 @@
 
 ## Fases
 
-- [ ] Fase 0: Montar el taller (19-25 oct 2026)
+- [ ] Fase 0: Montar el taller (19-25 oct 2026) · **en curso desde el 15 oct**: entorno y proyecto listos; faltan las lecturas y la reflexión en el diario
 - [ ] Fase 1: Fundamentos del modelo (26 oct - 8 nov)
 - [ ] Fase 2: Context engineering (9-22 nov)
 - [ ] Fase 3: Skills (23 nov - 6 dic)
@@ -27,6 +27,8 @@
 ## Artefactos construidos
 
 (Se añaden al aprobar cada fase: ruta y una línea de qué hace.)
+
+- `proyecto/` (15 oct): Jorgharness, entorno Python con el SDK de Anthropic y README con la primera hipótesis de qué piezas tiene un harness.
 
 ## Temas aparcados
 
