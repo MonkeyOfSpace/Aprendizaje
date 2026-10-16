@@ -2,7 +2,7 @@
 
 ## Fases
 
-- [ ] Fase 0: Montar el taller (19-25 oct 2026) · **en curso desde el 15 oct**: entorno y proyecto listos; faltan las lecturas y la reflexión en el diario
+- [ ] Fase 0: Montar el taller (19-25 oct 2026) · **en curso desde el 15 oct**: entorno y proyecto listos; leídos "Building effective agents" y Ousterhout 1-2 (16 oct); faltan la reflexión escrita en el diario del 15 oct y las docs de Claude Code
 - [ ] Fase 1: Fundamentos del modelo (26 oct - 8 nov)
 - [ ] Fase 2: Context engineering (9-22 nov)
 - [ ] Fase 3: Skills (23 nov - 6 dic)
@@ -34,9 +34,11 @@
 
 (Cosas interesantes que surgieron fuera de la fase actual. Se revisan en la fase 8.)
 
+- (16 oct, de Ousterhout caps. 1-2) Si el software ahora lo construyen agentes, ¿el diseño debe pensarse para que lo entienda un agente antes que un desarrollador humano? Conecta con la fase 2 (CLAUDE.md como documentación para el modelo) y con la fase 8.
+
 ## Hilo paralelo: fundamentos de diseño (1 h/semana, ver PLAN.md 8.5)
 
-- [ ] Ousterhout caps. 1-5 (fases 0-1)
+- [ ] Ousterhout caps. 1-5 (fases 0-1) · caps. 1-2 leídos el 16 oct
 - [ ] Ousterhout caps. 6-10 (fases 2-3)
 - [ ] Ousterhout caps. 11-15 (fases 4-5)
 - [ ] Fowler caps. 1-4 (fases 6-7)
