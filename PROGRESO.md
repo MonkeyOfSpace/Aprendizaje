@@ -3,7 +3,7 @@
 ## Fases
 
 - [x] Fase 0: Montar el taller (19-25 oct 2026) · **aprobada el 17 oct**: proyecto con primer commit (15 oct), "Building effective agents" y Ousterhout 1-2 leídos (16 oct), reflexión "qué es un agente" escrita en el diario del 15 (17 oct). Las docs de Claude Code quedan como lectura pendiente para la semana 2
-- [ ] Fase 1: Fundamentos del modelo (26 oct - 8 nov)
+- [ ] Fase 1: Fundamentos del modelo (26 oct - 8 nov) · empezada el 17 oct: `01_una_herramienta.py` funcionando con `leer_fichero`; queda el loop (semana 3), el parser de Aircall y la nota
 - [ ] Fase 2: Context engineering (9-22 nov)
 - [ ] Fase 3: Skills (23 nov - 6 dic)
 - [ ] Fase 4: Harness: hooks, permisos y MCP (7-20 dic)
@@ -29,6 +29,7 @@
 (Se añaden al aprobar cada fase: ruta y una línea de qué hace.)
 
 - `proyecto/` (15 oct): Jorgharness, entorno Python con el SDK de Anthropic y README con la primera hipótesis de qué piezas tiene un harness.
+- `proyecto/01_una_herramienta.py` (17 oct): una llamada a la API con la herramienta `leer_fichero`; imprime el JSON de ida y vuelta, el `stop_reason` y los tokens. Todavía no es un agente: no hay loop.
 
 ## Temas aparcados
 
