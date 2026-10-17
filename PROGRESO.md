@@ -2,7 +2,7 @@
 
 ## Fases
 
-- [ ] Fase 0: Montar el taller (19-25 oct 2026) · **en curso desde el 15 oct**: entorno y proyecto listos; leídos "Building effective agents" y Ousterhout 1-2 (16 oct); faltan la reflexión escrita en el diario del 15 oct y las docs de Claude Code
+- [x] Fase 0: Montar el taller (19-25 oct 2026) · **aprobada el 17 oct**: proyecto con primer commit (15 oct), "Building effective agents" y Ousterhout 1-2 leídos (16 oct), reflexión "qué es un agente" escrita en el diario del 15 (17 oct). Las docs de Claude Code quedan como lectura pendiente para la semana 2
 - [ ] Fase 1: Fundamentos del modelo (26 oct - 8 nov)
 - [ ] Fase 2: Context engineering (9-22 nov)
 - [ ] Fase 3: Skills (23 nov - 6 dic)
