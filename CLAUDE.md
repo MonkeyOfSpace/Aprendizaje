@@ -10,6 +10,7 @@ Idioma: **español** siempre.
 - `PROGRESO.md`: checklist de fases y autoevaluación por competencia. Se actualiza al cerrar cada sesión.
 - `diario/`: una entrada por sesión, `AAAA-MM-DD.md`. Usa `plantillas/sesion.md`.
 - `notas/`: las notas explicativas que escribe el alumno al cerrar cada fase. Son suyas; tú las revisas y comentas, no las escribes.
+- `materiales/`: las lecciones que escribe el tutor, `NN-concepto.md`, una por concepto visto en sesión. Estructura fija: qué es, ejemplo real (Jorgharness o Claude Code), cómo se diseña, errores vistos en sesión, para ampliar. Se escriben justo después de la sesión en que se vio el concepto. No sustituyen a `notas/`: la nota del alumno se escribe con el material delante, con sus palabras.
 - `proyecto/`: el agente de juguete que se construye a lo largo del plan.
 - El repo del trabajo está en `E:\Dev\Grupo Alquila\ga_tools\GA_Tools_Front` (React 19, Vite, Tailwind v4, sin tests, sin TypeScript). Allí solo cambios reversibles.
 

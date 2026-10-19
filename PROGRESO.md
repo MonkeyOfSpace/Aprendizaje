@@ -32,6 +32,11 @@
 - `proyecto/01_una_herramienta.py` (17 oct): una llamada a la API con la herramienta `leer_fichero`; imprime el JSON de ida y vuelta, el `stop_reason` y los tokens. Todavía no es un agente: no hay loop.
 - `proyecto/02_loop.py` (18 oct): el loop agente mínimo. Dos herramientas (`leer_fichero`, `listar_directorio`), ejecución por `name`, `tool_result` con el `id`, acta que crece, frenos de `max_tokens` y `MAX_VUELTAS`, tokens acumulados. Ya es un agente: encadena listar y leer sin intervención.
 
+## Materiales del tutor (`materiales/`)
+
+- `01-anatomia-de-una-herramienta.md` (19 oct): ficha y función, descripción como contrato, consejos y lista de comprobación. Base para la nota de la Fase 1.
+- `02-el-loop-agente.md` (19 oct): los tres pasos del loop, el acta, `stop_reason`, los frenos del harness, qué se paga. Base para la nota "Qué es un agente, explicado con mi loop de 60 líneas".
+
 ## Temas aparcados
 
 (Cosas interesantes que surgieron fuera de la fase actual. Se revisan en la fase 8.)
