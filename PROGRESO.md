@@ -3,7 +3,7 @@
 ## Fases
 
 - [x] Fase 0: Montar el taller (19-25 oct 2026) · **aprobada el 17 oct**: proyecto con primer commit (15 oct), "Building effective agents" y Ousterhout 1-2 leídos (16 oct), reflexión "qué es un agente" escrita en el diario del 15 (17 oct). Las docs de Claude Code quedan como lectura pendiente para la semana 2
-- [ ] Fase 1: Fundamentos del modelo (26 oct - 8 nov) · empezada el 17 oct: `01_una_herramienta.py` con `leer_fichero`; 18 oct: `02_loop.py`, el loop agente con `leer_fichero` y `listar_directorio` encadenándose solas. Queda `escribir_fichero` y la prueba de aprobado (crear y leer de vuelta), el parser de Aircall, los criterios JEV y la nota
+- [ ] Fase 1: Fundamentos del modelo (26 oct - 8 nov) · empezada el 17 oct: `01_una_herramienta.py` con `leer_fichero`; 18 oct: `02_loop.py`, el loop agente con `leer_fichero` y `listar_directorio` encadenándose solas. 19 oct: respuesta razonada a "ficha o código" (texto, con la regla barato→texto / irreversible→código) y ficha v1 de `escribir_fichero` revisada (falta el parámetro del contenido, sobra `tipo`, sin decidir qué pasa si existe). Queda la ficha v2, la función en el loop y la prueba de aprobado (crear y leer de vuelta), el parser de Aircall, los criterios JEV y la nota
 - [ ] Fase 2: Context engineering (9-22 nov)
 - [ ] Fase 3: Skills (23 nov - 6 dic)
 - [ ] Fase 4: Harness: hooks, permisos y MCP (7-20 dic)
@@ -40,6 +40,8 @@
 ## Temas aparcados
 
 (Cosas interesantes que surgieron fuera de la fase actual. Se revisan en la fase 8.)
+
+- (19 oct) Leer fichas de herramientas reales como fuente de ideas de diseño: las de Claude Code se pueden pegar en sesión; el código de pi ya está en la Fase 4. Patrón visto: un error de herramienta debe llevar dentro el contexto para el siguiente paso (error + listado), no un callejón sin salida.
 
 - (18 oct, del loop) La descripción de una herramienta es un consejo que el modelo lee, no una regla que el harness aplica: con `NOTAS.md` inexistente el modelo preguntó en vez de listar. Dónde poner cada garantía (texto frente a código) es tema de las fases 4 y 6, y conecta con la herramienta `decidir` del hilo JEV.
 - (16 oct, de Ousterhout caps. 1-2) Si el software ahora lo construyen agentes, ¿el diseño debe pensarse para que lo entienda un agente antes que un desarrollador humano? Conecta con la fase 2 (CLAUDE.md como documentación para el modelo) y con la fase 8.
