@@ -42,6 +42,7 @@
 
 (Cosas interesantes que surgieron fuera de la fase actual. Se revisan en la fase 8.)
 
+- (23 oct, de Jorge) Harness² de Google Research (github.com/google-research/harness2, arXiv 2610.14224): un agente que edita su propio harness mientras resuelve la tarea (propone, prueba, compone), sin tocar el modelo. Sus ocho componentes editables (system prompt, guardarraíles, memoria, guía de herramientas, subagentes, skills, scripts, plugins) son el índice de las Fases 2-5. Mirarlo en la Fase 7, cuando haya un harness propio y evals para medir si mejora. Conecta con la pregunta del 16 oct (diseñar para que lo entienda un agente).
 - (19 oct) Leer fichas de herramientas reales como fuente de ideas de diseño: las de Claude Code se pueden pegar en sesión; el código de pi ya está en la Fase 4. Patrón visto: un error de herramienta debe llevar dentro el contexto para el siguiente paso (error + listado), no un callejón sin salida.
 
 - (18 oct, del loop) La descripción de una herramienta es un consejo que el modelo lee, no una regla que el harness aplica: con `NOTAS.md` inexistente el modelo preguntó en vez de listar. Dónde poner cada garantía (texto frente a código) es tema de las fases 4 y 6, y conecta con la herramienta `decidir` del hilo JEV.
