@@ -36,6 +36,7 @@
 
 - `01-anatomia-de-una-herramienta.md` (19 oct): ficha y función, descripción como contrato, consejos y lista de comprobación. Base para la nota de la Fase 1.
 - `02-el-loop-agente.md` (19 oct): los tres pasos del loop, el acta, `stop_reason`, los frenos del harness, qué se paga. Base para la nota "Qué es un agente, explicado con mi loop de 60 líneas".
+- `03-las-tres-capas.md` (23 oct): humano / harness / modelo, las cinco piezas de Theo en el loop, la interfaz del modelo con sus dos direcciones (fichas y `tool_result`), la regla texto/código (barato -> texto, irreversible -> codigo). Marco de los materiales 01 y 02.
 
 ## Temas aparcados
 

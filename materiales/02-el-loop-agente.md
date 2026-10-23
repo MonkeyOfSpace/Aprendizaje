@@ -131,4 +131,5 @@ Para que sepas qué viene, no para hacerlo ahora:
 
 - Docs de Anthropic, "Tool use with Claude", sección sobre el flujo completo y los `stop_reason`.
 - Anthropic, "Building effective agents" (ya leído en la Fase 0): vuelve a la sección de agentes con el loop delante; ahora el diagrama se lee distinto.
+- Theo (t3.gg), "What is a harness?" (X, 23 oct 2026): las cinco piezas de un harness, todas presentes en `02_loop.py`. Se comenta en el material 03.
 - El `tool_runner` del SDK de Python hace este loop por ti. Lo hicimos a mano a propósito; cuando lo mires, reconocerás cada pieza.
